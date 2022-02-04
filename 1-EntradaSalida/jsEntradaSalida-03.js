@@ -6,7 +6,7 @@ function mostrar()
 	var nombreIngresado;
 	nombreIngresado= document.getElementById("txtIdNombre").value;
 	alert("El nombre ingresado es: " + nombreIngresado);
-
+	document.getElementById("txtIdNombre").value = "";
 }
 
 
